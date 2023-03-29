@@ -1,5 +1,5 @@
 # xDiggityDee 
-# [Visit here](https://xdiggitydee-port.netlify.app/index.html)
+## [Live Site](https://xdiggitydee.netlify.app/)
 
 Professional website created for a producer, featuring his:
   * tracks
