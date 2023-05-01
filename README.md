@@ -8,10 +8,10 @@
 
 <img src="mediaImages/xdiggitydee.gif" />
 
-There are many great Pomodoro apps available online; however, "pomodoro" is Italian for "tomato" and I wanted one that featured corn - thus, Cornodoro was born.
-
 This is a professional website created for a producer, featuring his: 
   * tracks
   * schedule of events
   * contact info
   * bio
+
+It was created using HTML, CSS, & JavaScript.
