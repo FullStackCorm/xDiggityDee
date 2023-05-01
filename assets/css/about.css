@@ -2530,8 +2530,6 @@ input, select, textarea {
 				background-color: rgba(209, 18, 15, 0.925) !important;
 			}
 
-			/*glitchy img animation: https://www.youtube.com/watch?v=mfF-_C0cNvE&ab_channel=DarkCode*/
-/*glitchy text animation: https://www.youtube.com/watch?v=7Xyg8Ja7dyY&ab_channel=KevinPowell*/
 .glitchy{
 	width: 600px;
 	height: 400px;
@@ -2628,100 +2626,6 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-
-		/*********************BUTTON RESIZING************************
-		@media screen and (max-width: 980px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button.primary {
-				height: 3.75em;
-				line-height: 3.75em;
-				max-width: 60%;
-				min-width: 60%;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button.secondary {
-				height: 3.75em;
-				line-height: 3.75em;
-				max-width: 60%;
-				min-width: 60%;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button.primary {
-				height: 3.75em;
-				line-height: 3.75em;
-				max-width: 60%;
-				min-width: 60%;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button.secondary {
-				height: 3.75em;
-				line-height: 3.75em;
-				max-width: 60%;
-				min-width: 60%;
-			}
-
-		}
-
-		@media screen and (min-width: 100px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button.primary {
-				height: 3.75em;
-				line-height: 3.75em;
-				max-width: 60%;
-				min-width: 12rem;
-				font-size: 0.66rem;
-			}
-
-		}
-
-		@media screen and (min-width: 100px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button.secondary {
-				height: 3.75em;
-				line-height: 3.75em;
-				max-width: 60%;
-				min-width: 12rem !important;
-				font-size: 0.66rem;
-			}
-
-		}
-*******************************************************************/
 		@media screen and (max-width: 736px) {
 
 			input[type="submit"],
@@ -3794,52 +3698,6 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
-
-		/*
-			#banner h2 {
-			-moz-transform: scale(1);
-			-webkit-transform: scale(1);
-			-ms-transform: scale(1);
-			transform: scale(1);
-			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease;
-			display: inline-block;
-			font-size: 1.75em;
-			opacity: 1;
-			padding: 0.35em 1em;
-			position: relative;
-			z-index: 1;
-		}
-
-			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.85s ease;
-				-webkit-transition: width 0.85s ease;
-				-ms-transition: width 0.85s ease;
-				transition: width 0.85s ease;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
-				background: #fff;
-				content: '';
-				display: block;
-				height: 2px;
-				position: absolute;
-				width: 100%;
-			}
-
-			#banner h2:before {
-				top: 0;
-				left: 0;
-			}
-
-			#banner h2:after {
-				bottom: 0;
-				right: 0;
-			}
-		*/
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
@@ -4228,45 +4086,6 @@ input, select, textarea {
 		padding-bottom: 3rem;
 		
 	}
-
-	/*.glitch_box:after{
-		background: url('https://xdiggitydee.files.wordpress.com/2020/04/fun-project-1-cyberthreat.png') left top;
-		background-size: cover;
-		background-color: darkred;
-		background-position: 0 0;
-		background-blend-mode: color-burn;
-		opacity: 0.5;
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-	}
-
-	.glitch_box:hover:after{
-		animation: ImgGlitch 2s;
-		animation-iteration-count: infinite;
-	}
-
-@keyframes ImgGlitch{
-0%{background-position: -3px -3px;}
-5%{background-position: 0px 0px;}
-10%{background-position: -3px -3px;}
-15%{background-position: 0px 0px;}
-30%{background-position: 3px 3px;}
-35%{background-position: 0px 0px;}
-40%{background-position: 3px -3px;}
-50%{background-position: -3px 3px;}
-55%{background-position: -3px 3px;}
-60%{background-position: -3px -3px;}
-70%{background-position: 0px 0px;}
-75%{background-position: -3px -3px;}
-80%{background-position: 0px 0px;}
-85%{background-position: 3px 3px;}
-90%{background-position: 0px 0px;}
-100%{background-position: -3px -3px;}
-
-}*/
 
 .hero {
 	font-size: clamp(40px, 10vw, 100px);
@@ -4758,20 +4577,5 @@ input, select, textarea {
 	width: 20rem;
 	float: right;
 	margin-bottom: -50%;
-}
-
-  /*.environment {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0.5;
-	filter: blur(5px);
-	background: url(https://images.unsplash.com/photo-1602136773736-34d445b989cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80)
-	  center no-repeat;
-	background-size: cover;
-  }
-
-	
+}	
 

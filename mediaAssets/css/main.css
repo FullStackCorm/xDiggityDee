@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+.title{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03rem;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -100,22 +105,15 @@ input, select, textarea {
 
 	body {
 		background: #ffffff;
-	}
 
-		/*body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}*/
+	}
 
 /* Type */
 
 	body, input, select, textarea {
+/* 
+		color: #07073c;
+*/
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
@@ -151,8 +149,9 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #84eef2 !important;
-		}
+			color: #99f5fafa !important;
+			/* color: #84eef2 !important; */
+		} 
 
 	strong, b {
 		font-weight: 900;
@@ -208,9 +207,7 @@ input, select, textarea {
 		}
 
 		h2{
-		
-			text-shadow:rgb(1, 1, 8) 2px 1px 2px;
-			
+			text-shadow:rgb(1, 1, 8) 2px 1px 2px;			
 		}
 
 	h2 {
@@ -2329,6 +2326,9 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
+/* <<<<<<< HEAD
+			max-width: 90%;
+======= */
 			max-width: 40%;
 		}
 
@@ -2534,8 +2534,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
-			color: #ffffff !important;
+			background-color: #c9c9c9;
+			color: #020946ec !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2543,7 +2543,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f2849e;
+				background-color: rgb(175, 255, 255);
 			}
 
 			input[type="submit"].primary:active,
@@ -2778,7 +2778,6 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		
 		#glitch_box:after{
 			background: url('X:/100Devs/Portfolio Projects/xdiggity/content/images/witchHuntEP.jpg') left top;
 			background-size: cover;
@@ -2817,8 +2816,6 @@ input, select, textarea {
 	100%{background-position: -3px -3px;}
 
 }
-
-
 
 		@media screen and (max-width: 1280px) {
 
@@ -2896,20 +2893,25 @@ input, select, textarea {
 			display: inline-block;
 		}
 
-			#header .logo > * {
-				display: inline-block;
-				vertical-align: middle;
-			}
+		#header .logo > * {
+			display: inline-block;
+			vertical-align: middle;
+		}
 
-			#header .logo .symbol {
-				margin-right: 0.65em;
-			}
 
-				#header .logo .symbol img {
-					display: block;
-					width: 3.5em;
-					height: 3.5em;
-				}
+		
+
+		#header .logo .symbol img {
+			display: block;
+			width: 3.25em;
+			height: 3.25em;
+		}
+
+		#header .logo .symbol img {
+			display: block;
+			width: 3.5em;
+			height: 3.5em;
+		}
 
 		#header nav {
 			position: fixed;
@@ -2940,10 +2942,10 @@ input, select, textarea {
 					#header nav ul li a {
 						display: block;
 						position: relative;
-						height: 3em;
+						height: 2.75em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: rgba(245, 8, 8, 0.5);
+						background-color: transparent;
 						border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
@@ -2954,6 +2956,7 @@ input, select, textarea {
 
 					#header nav ul li a[href="#menu"] {
 						-webkit-tap-highlight-color: transparent;
+						width: 3.25em;
 						width: 4em;
 						text-indent: 4em;
 						font-size: 1em;
@@ -3218,7 +3221,8 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: rgb(0, 0, 12);
+		color: rgba(255, 255, 255, 0.75);
 	}
 
 		#footer > .inner {
@@ -3256,7 +3260,7 @@ input, select, textarea {
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				color: rgba(255, 255, 255, 0.715);
 			}
 
 				#footer > .inner .copyright a {
@@ -3265,7 +3269,8 @@ input, select, textarea {
 
 				#footer > .inner .copyright li {
 					display: inline-block;
-					border-left: solid 1px rgba(88, 88, 88, 0.15);
+					border-left: solid 1px rgba(255, 255, 255, 0.715);
+					/* border-left: solid 1px rgba(88, 88, 88, 0.15); */
 					line-height: 1;
 					padding: 0 0 0 1em;
 					margin: 0 0 0 1em;
@@ -3386,3 +3391,4 @@ input, select, textarea {
 			float: right;
 			margin-bottom: -50%;
 		}
+
